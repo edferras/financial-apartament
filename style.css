@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+body {
+    background-color: #0b486b;
+    font-family: "Lato",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #A5AAAB;
+font-weight: 900;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #A5AAAB;
+font-weight: 900;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #A5AAAB;
+font-weight: 900;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #A5AAAB;
+font-weight: 900;
+}
+
+#interface {
+    left: 50%;
+    margin-left: -180px;
+    margin-top: -168px;
+    position: absolute;
+    top: 50%;
+    width: 360px;
+}
+
+
+.boxLogin {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.boxLogin #formLogin input {
+    border: 0 none;
+    border-radius: 13px;
+    box-shadow: 0 0 31px rgba(100, 100, 100, 0.5);
+    display: block;
+    height: 47px;
+    line-height: 0;
+    margin: 25px auto;
+    padding: 0 5px 0 47px;
+    width: 85%;
+}
+#usuario {
+    background: #fff url("img/imgUser.png") no-repeat scroll 0 0;
+}
+#senha {
+    background: #fff url("img/imgPass.png") no-repeat scroll 0 0;
+}
+.submit {
+    background-color: #cff09e;
+    padding: 0 !important;
+    transition: transform 0.2s ease 0s;
+    width: 100% !important;
+}
+.submit:active {
+    transform: scale(1.1);
+}
+.logo {
+    margin: 0 auto;
+    width: 31%;
+}
