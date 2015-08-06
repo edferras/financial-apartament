@@ -12,7 +12,7 @@
 			<img src="img/money.png" alt="entrada" />
 		</div>
 		<div class="boxLogin">
-			<p class="tituloForm">Nome Projeto</p>
+			<p class="tituloForm">Financial apartment</p>
 			<form action="" method="post" id="formLogin">
 				<input type="text" id="usuario" placeholder="Usuário" />
 				<input type="password" id="senha" placeholder="Senha" />

@@ -125,10 +125,6 @@ img {
 	transform 0.2s ease 0s;
 }
 
-#registraLogin:active{
-	transform: scale(1.1);
-}
-
 #esqueceuSenha{
     float: left;
     font-size: 12px;
@@ -141,15 +137,9 @@ img {
 	transform 0.2s ease 0s;
 }
 
-#esqueceuSenha:active{
-	transform: scale(1.1);
-}
-
 .boxCadastro{
 	margin: 0 auto;
     position: relative;
     text-align: center;
     width: 100%;
 }
-
-
